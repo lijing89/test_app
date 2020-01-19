@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da994947-807a-41e1-8e32-0785c85e922a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/Case-Appreciation-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Case-Appreciation-tu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Case-Appreciation-tu2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Case-Appreciation-tu3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Case-Appreciation-tu4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Choice-tu1-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Choice-tu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Choice-tu2-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Choice-tu2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Choice-tu3-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Choice-tu3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Choice-tu4-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Choice-tu4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Operation-Promotion-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Operation-Promotion-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Rotary-sowing-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Rotary-sowing-li-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Rotary-sowing-logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Rotary-sowing-logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Rotary-sowing-logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Rotary-sowing-logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Rotary-sowing-logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Why-Choice-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/advertisement-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/advertisement2-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/advertisement3-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bg_bottom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/biao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/btn_l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/btn_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/development-team-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/development-team-shu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/dh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/example/dianshang1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/example/dianshang3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/example/jiankang3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/example/jiaoyu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/foot-list_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/foot-list_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/foot-list_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/foot-list_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/foot_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/foot_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/headtel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index-left.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index-one-shu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index4-110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index4-111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index4-112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index4-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index4110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index4111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index4112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index_f5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index_f8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/index_f9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/jiantou1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/jiantou2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/jiantou3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/jiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/menu_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mobile_foot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mobile_foot_i1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mobile_foot_i2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/s_l-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/s_l-bg_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sc4-xb1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sc4-xb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sc4-xb3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sea-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sea-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sea-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sea-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sea-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sea-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sea-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sg_s_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/team-circular1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/team-circular2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/team-circular3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/team-circular4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/team-circular5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/team-circular6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/team-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/team-list-bioa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/team-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/wq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/app.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/pages/about_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/pages/contact_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/pages/example_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/pages/index_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/pages/school_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/pages/service_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/resources/app_icon.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/resources/app_style.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/routers/handler_router.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/routers/routes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/widgets/bottom_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/widgets/customAppBar/custom_app_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/widgets/customAppBar/custom_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/app/widgets/bottom_view.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/app/widgets/customAppBar/custom_app_bar.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/app/widgets/customAppBar/custom_controller.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>IndexPage</find>
+      <find>wq_beauty_shop</find>
+      <find>CustomTabBar</find>
+      <find>tabController</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>AboutPage</replace>
+      <replace>ContactPage</replace>
+      <replace>ExamplePage</replace>
+      <replace>SchoolPage</replace>
+      <replace>ServicePage</replace>
+      <replace>flutter_test_app</replace>
+      <replace>CustomAppbar</replace>
+      <replace>appbarController</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/widget_test.dart" />
+        <option value="$PROJECT_DIR$/lib/app/pages/index.page.dart" />
+        <option value="$PROJECT_DIR$/lib/app/pages/about_page.dart" />
+        <option value="$PROJECT_DIR$/lib/app/pages/contact_page.dart" />
+        <option value="$PROJECT_DIR$/lib/app/pages/example_page.dart" />
+        <option value="$PROJECT_DIR$/lib/app/pages/school_page.dart" />
+        <option value="$PROJECT_DIR$/lib/app/pages/service_page.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/app/app.dart" />
+        <option value="$PROJECT_DIR$/lib/app/resources/app_style.dart" />
+        <option value="$PROJECT_DIR$/lib/app/utils/application.dart" />
+        <option value="$PROJECT_DIR$/lib/app/routers/handler_router.dart" />
+        <option value="$PROJECT_DIR$/lib/app/routers/routes.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/app/widget/bottom_bar.dart" />
+        <option value="$PROJECT_DIR$/lib/app/widget/custom_app_bar.dart" />
+        <option value="$PROJECT_DIR$/lib/app/widget/bottom_view.dart" />
+        <option value="$PROJECT_DIR$/lib/app/widget/customAppBar/customController.dart" />
+        <option value="$PROJECT_DIR$/lib/app/widget/customAppBar/custom_app_bar.dart" />
+        <option value="$PROJECT_DIR$/lib/app/widgets/customAppBar/custom_app_bar.dart" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="500" />
+    <option name="y" value="23" />
+    <option name="width" value="1851" />
+    <option name="height" value="976" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flutter_study_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_study_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_study_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_study_app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_study_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_study_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_study_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_study_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_study_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_study_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_study_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_study_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_study_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_study_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_study_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_study_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_study_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_study_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_study_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_study_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+              <item name="customAppBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_study_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_study_app" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/app/widget/customAppBar" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/example" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib/app" />
+      <recent name="$PROJECT_DIR$/lib/app/pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da994947-807a-41e1-8e32-0785c85e922a" name="Default Changelist" comment="" />
+      <created>1579399197884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579399197884</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="500" y="23" width="1851" height="976" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32962757" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Dart Analysis" weight="0.32947975" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Find" weight="0.32947975" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32947975" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/app/model/my_info.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/pages/index_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/pages/about_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/pages/contact_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/pages/example_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/pages/school_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/pages/service_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/resources/app_icon.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/app.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/utils/loading_dialog.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/utils/alert/type/cancel.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/widget_test.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#1055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/resources/user_info_cache.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.flutter-io.cn/fluro-1.5.1/lib/fluro.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/resources/app_style.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/utils/date_util.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#5382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/utils/http_util.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.flutter-io.cn/fluro-1.5.1/lib/src/router.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1459">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#8445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/example/jiaoyu1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/example/jiankang3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/example/dianshang3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/example/dianshang1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/routers/handler_router.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/routers/routes.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/widgets/bottom_view.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/utils/application.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/widgets/customAppBar/custom_controller.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app/widgets/customAppBar/custom_app_bar.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
