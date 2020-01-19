@@ -12,6 +12,7 @@ class CustomAppbarController extends IndexController {
 
     int index;
     bool animation;
+    bool showItems = false;
 
     CustomAppbarController();
 

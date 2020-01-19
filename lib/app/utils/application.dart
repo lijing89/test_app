@@ -5,6 +5,8 @@ import 'package:fluro/fluro.dart';
 
 export 'package:fluro/fluro.dart';
 export 'package:flutter_test_app/app/routers/routes.dart';
+export 'package:flutter_test_app/app/resources/app_style.dart';
+export 'package:flutter_test_app/app/utils/asset_util.dart';
 
 class Application{
     static Router router;

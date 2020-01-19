@@ -3,6 +3,7 @@ export 'package:flutter_test_app/app/resources/app_icon.dart';
 class AppStyle {
     /// 主颜色
     static Color colorPrimary = Color(0xFFF84E3A);
+    static Color colorHeaderBg = Color.fromRGBO(12, 52, 53, 1);
     /// 次要的颜色
     static Color colorSecondary = Color(0xFFFCE96B);
     /// 主要文字颜色
