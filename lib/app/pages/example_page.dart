@@ -43,6 +43,20 @@ class _ExamplePageState extends State<ExamplePage> {
         },
     ];
 
+    List _itemsThree = [
+        {
+            'img': 'dianshang1.png',
+        },
+        {
+            'img': 'dianshang3.png',
+        },
+        {
+            'img': 'jiaoyu1.png',
+        },
+        {
+            'img': 'jiankang3.png',
+        },
+    ];
 
     CustomAppbarController _appbarController = CustomAppbarController();
 
@@ -117,45 +131,509 @@ class _ExamplePageState extends State<ExamplePage> {
             children: <Widget>[
                 Container(
                     margin: EdgeInsets.only(
-                        top: 10,bottom: 10
+                        bottom: 20.0
                     ),
-                    color: Colors.red,
-                    height: 200,
-                    width: 200,
+                    width: double.infinity,
+                    child: Image.asset(AssetUtil.image('example_head_bg.png'),fit: BoxFit.fitWidth,),
+                ),
+                titleView(
+                    title: ' 电商类',
+                    subTitle: 'Electronic business category',
+                    img: 'Online-retailers-title.png',
                 ),
                 Container(
-                    margin: EdgeInsets.only(
-                        top: 10,bottom: 10
+                    padding: EdgeInsets.only(
+                        top: 40.0,
+                        bottom: 40.0,
+                        left: 20.0,
+                        right: 20.0,
                     ),
-                    color: Colors.green,
-                    height: 200,
-                    width: 200,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(image: AssetImage(AssetUtil.image('index4-bg.jpg')),fit: BoxFit.cover)
+                    ),
+                    child: Column(
+                        children: <Widget>[
+                            GridView.builder(
+                                shrinkWrap: true,
+                                physics: NeverScrollableScrollPhysics(),
+                                padding: EdgeInsets.only(
+//                                left: ScreenUtil.getInstance().setWidth(20.0),
+//                                right: ScreenUtil.getInstance().setWidth(20.0),
+                                ),
+                                itemCount: _itemsThree.length,
+                                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                                    //横轴元素个数
+                                    crossAxisCount: 2,
+                                    //纵轴间距
+                                    mainAxisSpacing: 10,
+                                    //横轴间距
+                                    crossAxisSpacing: 10,
+                                    //子组件宽高长度比例
+                                    childAspectRatio: 1/2
+                                ),
+                                itemBuilder: (BuildContext context , int index){
+                                    return GestureDetector(
+                                        onTap: (){
+                                            print('index = $index');
+                                        },
+                                        child: Container(
+                                            child: Image.asset(AssetUtil.image(_itemsThree[index]['img']),fit: BoxFit.fitWidth,),
+                                        ),
+                                    );
+                                }
+                            ),
+                            Container(
+                                height: ScreenUtil().setWidth(160),
+                                child: Row(
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children: <Widget>[
+                                        Expanded(child: SizedBox(),),
+                                        Text(
+                                            '查看更多',
+                                            style: TextStyle(
+                                                fontSize: 16.0,
+                                                color: Colors.cyan,
+                                            ),
+                                        ),
+                                        Icon(
+                                            Icons.chevron_right,
+                                            size: 20,
+                                            color: Colors.cyan,
+                                        ),
+                                        SizedBox(width: 10,),
+                                    ],
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+                titleView(
+                    title: ' 金融类',
+                    subTitle: 'Financial category',
+                    img: 'Finance-title.png',
                 ),
                 Container(
-                    margin: EdgeInsets.only(
-                        top: 10,bottom: 10
+                    padding: EdgeInsets.only(
+                        top: 40.0,
+                        bottom: 40.0,
+                        left: 20.0,
+                        right: 20.0,
                     ),
-                    color: Colors.pink,
-                    height: 200,
-                    width: 200,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(image: AssetImage(AssetUtil.image('index4-bg.jpg')),fit: BoxFit.cover)
+                    ),
+                    child: Column(
+                        children: <Widget>[
+                            GridView.builder(
+                                shrinkWrap: true,
+                                physics: NeverScrollableScrollPhysics(),
+                                padding: EdgeInsets.only(
+//                                left: ScreenUtil.getInstance().setWidth(20.0),
+//                                right: ScreenUtil.getInstance().setWidth(20.0),
+                                ),
+                                itemCount: _itemsThree.length,
+                                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                                    //横轴元素个数
+                                    crossAxisCount: 2,
+                                    //纵轴间距
+                                    mainAxisSpacing: 10,
+                                    //横轴间距
+                                    crossAxisSpacing: 10,
+                                    //子组件宽高长度比例
+                                    childAspectRatio: 1/2
+                                ),
+                                itemBuilder: (BuildContext context , int index){
+                                    return GestureDetector(
+                                        onTap: (){
+                                            print('index = $index');
+                                        },
+                                        child: Container(
+                                            child: Image.asset(AssetUtil.image(_itemsThree[index]['img']),fit: BoxFit.fitWidth,),
+                                        ),
+                                    );
+                                }
+                            ),
+                            Container(
+                                height: ScreenUtil().setWidth(160),
+                                child: Row(
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children: <Widget>[
+                                        Expanded(child: SizedBox(),),
+                                        Text(
+                                            '查看更多',
+                                            style: TextStyle(
+                                                fontSize: 16.0,
+                                                color: Colors.cyan,
+                                            ),
+                                        ),
+                                        Icon(
+                                            Icons.chevron_right,
+                                            size: 20,
+                                            color: Colors.cyan,
+                                        ),
+                                        SizedBox(width: 10,),
+                                    ],
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+                titleView(
+                    title: ' 美容类',
+                    subTitle: 'Beauty category',
+                    img: 'Cosmetology-title.png',
                 ),
                 Container(
-                    margin: EdgeInsets.only(
-                        top: 10,bottom: 10
+                    padding: EdgeInsets.only(
+                        top: 40.0,
+                        bottom: 40.0,
+                        left: 20.0,
+                        right: 20.0,
                     ),
-                    color: Colors.purple,
-                    height: 200,
-                    width: 200,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(image: AssetImage(AssetUtil.image('index4-bg.jpg')),fit: BoxFit.cover)
+                    ),
+                    child: Column(
+                        children: <Widget>[
+                            GridView.builder(
+                                shrinkWrap: true,
+                                physics: NeverScrollableScrollPhysics(),
+                                padding: EdgeInsets.only(
+//                                left: ScreenUtil.getInstance().setWidth(20.0),
+//                                right: ScreenUtil.getInstance().setWidth(20.0),
+                                ),
+                                itemCount: _itemsThree.length,
+                                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                                    //横轴元素个数
+                                    crossAxisCount: 2,
+                                    //纵轴间距
+                                    mainAxisSpacing: 10,
+                                    //横轴间距
+                                    crossAxisSpacing: 10,
+                                    //子组件宽高长度比例
+                                    childAspectRatio: 1/2
+                                ),
+                                itemBuilder: (BuildContext context , int index){
+                                    return GestureDetector(
+                                        onTap: (){
+                                            print('index = $index');
+                                        },
+                                        child: Container(
+                                            child: Image.asset(AssetUtil.image(_itemsThree[index]['img']),fit: BoxFit.fitWidth,),
+                                        ),
+                                    );
+                                }
+                            ),
+                            Container(
+                                height: ScreenUtil().setWidth(160),
+                                child: Row(
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children: <Widget>[
+                                        Expanded(child: SizedBox(),),
+                                        Text(
+                                            '查看更多',
+                                            style: TextStyle(
+                                                fontSize: 16.0,
+                                                color: Colors.cyan,
+                                            ),
+                                        ),
+                                        Icon(
+                                            Icons.chevron_right,
+                                            size: 20,
+                                            color: Colors.cyan,
+                                        ),
+                                        SizedBox(width: 10,),
+                                    ],
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+                titleView(
+                    title: ' 健康类',
+                    subTitle: 'Health category',
+                    img: 'Healthy-title.png',
                 ),
                 Container(
-                    margin: EdgeInsets.only(
-                        top: 10,bottom: 10
+                    padding: EdgeInsets.only(
+                        top: 40.0,
+                        bottom: 40.0,
+                        left: 20.0,
+                        right: 20.0,
                     ),
-                    color: Colors.cyan,
-                    height: 200,
-                    width: 200,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(image: AssetImage(AssetUtil.image('index4-bg.jpg')),fit: BoxFit.cover)
+                    ),
+                    child: Column(
+                        children: <Widget>[
+                            GridView.builder(
+                                shrinkWrap: true,
+                                physics: NeverScrollableScrollPhysics(),
+                                padding: EdgeInsets.only(
+//                                left: ScreenUtil.getInstance().setWidth(20.0),
+//                                right: ScreenUtil.getInstance().setWidth(20.0),
+                                ),
+                                itemCount: _itemsThree.length,
+                                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                                    //横轴元素个数
+                                    crossAxisCount: 2,
+                                    //纵轴间距
+                                    mainAxisSpacing: 10,
+                                    //横轴间距
+                                    crossAxisSpacing: 10,
+                                    //子组件宽高长度比例
+                                    childAspectRatio: 1/2
+                                ),
+                                itemBuilder: (BuildContext context , int index){
+                                    return GestureDetector(
+                                        onTap: (){
+                                            print('index = $index');
+                                        },
+                                        child: Container(
+                                            child: Image.asset(AssetUtil.image(_itemsThree[index]['img']),fit: BoxFit.fitWidth,),
+                                        ),
+                                    );
+                                }
+                            ),
+                            Container(
+                                height: ScreenUtil().setWidth(160),
+                                child: Row(
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children: <Widget>[
+                                        Expanded(child: SizedBox(),),
+                                        Text(
+                                            '查看更多',
+                                            style: TextStyle(
+                                                fontSize: 16.0,
+                                                color: Colors.cyan,
+                                            ),
+                                        ),
+                                        Icon(
+                                            Icons.chevron_right,
+                                            size: 20,
+                                            color: Colors.cyan,
+                                        ),
+                                        SizedBox(width: 10,),
+                                    ],
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+                titleView(
+                    title: ' 医疗类',
+                    subTitle: 'Medical category',
+                    img: 'Medical-title.png',
+                ),
+                Container(
+                    padding: EdgeInsets.only(
+                        top: 40.0,
+                        bottom: 40.0,
+                        left: 20.0,
+                        right: 20.0,
+                    ),
+                    decoration: BoxDecoration(
+                        image: DecorationImage(image: AssetImage(AssetUtil.image('index4-bg.jpg')),fit: BoxFit.cover)
+                    ),
+                    child: Column(
+                        children: <Widget>[
+                            GridView.builder(
+                                shrinkWrap: true,
+                                physics: NeverScrollableScrollPhysics(),
+                                padding: EdgeInsets.only(
+//                                left: ScreenUtil.getInstance().setWidth(20.0),
+//                                right: ScreenUtil.getInstance().setWidth(20.0),
+                                ),
+                                itemCount: _itemsThree.length,
+                                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                                    //横轴元素个数
+                                    crossAxisCount: 2,
+                                    //纵轴间距
+                                    mainAxisSpacing: 10,
+                                    //横轴间距
+                                    crossAxisSpacing: 10,
+                                    //子组件宽高长度比例
+                                    childAspectRatio: 1/2
+                                ),
+                                itemBuilder: (BuildContext context , int index){
+                                    return GestureDetector(
+                                        onTap: (){
+                                            print('index = $index');
+                                        },
+                                        child: Container(
+                                            child: Image.asset(AssetUtil.image(_itemsThree[index]['img']),fit: BoxFit.fitWidth,),
+                                        ),
+                                    );
+                                }
+                            ),
+                            Container(
+                                height: ScreenUtil().setWidth(160),
+                                child: Row(
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children: <Widget>[
+                                        Expanded(child: SizedBox(),),
+                                        Text(
+                                            '查看更多',
+                                            style: TextStyle(
+                                                fontSize: 16.0,
+                                                color: Colors.cyan,
+                                            ),
+                                        ),
+                                        Icon(
+                                            Icons.chevron_right,
+                                            size: 20,
+                                            color: Colors.cyan,
+                                        ),
+                                        SizedBox(width: 10,),
+                                    ],
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+                titleView(
+                    title: ' 其他类',
+                    subTitle: 'Other categories',
+                    img: 'other-title.png',
+                ),
+                Container(
+                    padding: EdgeInsets.only(
+                        top: 40.0,
+                        bottom: 40.0,
+                        left: 20.0,
+                        right: 20.0,
+                    ),
+                    decoration: BoxDecoration(
+                        image: DecorationImage(image: AssetImage(AssetUtil.image('index4-bg.jpg')),fit: BoxFit.cover)
+                    ),
+                    child: Column(
+                        children: <Widget>[
+                            GridView.builder(
+                                shrinkWrap: true,
+                                physics: NeverScrollableScrollPhysics(),
+                                padding: EdgeInsets.only(
+//                                left: ScreenUtil.getInstance().setWidth(20.0),
+//                                right: ScreenUtil.getInstance().setWidth(20.0),
+                                ),
+                                itemCount: _itemsThree.length,
+                                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                                    //横轴元素个数
+                                    crossAxisCount: 2,
+                                    //纵轴间距
+                                    mainAxisSpacing: 10,
+                                    //横轴间距
+                                    crossAxisSpacing: 10,
+                                    //子组件宽高长度比例
+                                    childAspectRatio: 1/2
+                                ),
+                                itemBuilder: (BuildContext context , int index){
+                                    return GestureDetector(
+                                        onTap: (){
+                                            print('index = $index');
+                                        },
+                                        child: Container(
+                                            child: Image.asset(AssetUtil.image(_itemsThree[index]['img']),fit: BoxFit.fitWidth,),
+                                        ),
+                                    );
+                                }
+                            ),
+                            Container(
+                                height: ScreenUtil().setWidth(160),
+                                child: Row(
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children: <Widget>[
+                                        Expanded(child: SizedBox(),),
+                                        Text(
+                                            '查看更多',
+                                            style: TextStyle(
+                                                fontSize: 16.0,
+                                                color: Colors.cyan,
+                                            ),
+                                        ),
+                                        Icon(
+                                            Icons.chevron_right,
+                                            size: 20,
+                                            color: Colors.cyan,
+                                        ),
+                                        SizedBox(width: 10,),
+                                    ],
+                                ),
+                            ),
+                        ],
+                    ),
                 ),
             ],
+        );
+    }
+
+    Widget titleView({@required String title,@required String subTitle,@required String img}){
+        return Container(
+            height: ScreenUtil().setWidth(160),
+            width: double.infinity,
+            padding: EdgeInsets.only(
+                top: 10,
+                bottom: 10
+            ),
+            child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[
+                    Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: <Widget>[
+                            Container(
+                                padding: EdgeInsets.only(right: 20.0),
+                                width: ScreenUtil().setWidth(100),
+                                child: Image.asset(AssetUtil.image(img),fit: BoxFit.fitWidth,),
+                            ),
+                            Text(
+                                title,
+                                style: TextStyle(
+                                    fontSize: 20.0,
+                                    color: Colors.black,
+                                ),
+                            ),
+                        ],
+                    ),
+                    Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                            Expanded(
+                                flex: 1,
+                                child: Center(
+                                    child: Container(
+                                        height: 3,
+                                        width: 30,
+                                        color: Colors.cyan,
+                                    ),
+                                ),
+                            ),
+                            Expanded(
+                                flex: 3,
+                                child: Center(
+                                    child: Text(
+                                        subTitle,
+                                        style: TextStyle(
+                                            fontSize: 14.0,
+                                            color: Colors.redAccent,
+                                        ),
+                                    ),
+                                ),
+                            ),
+                            Expanded(
+                                flex: 1,
+                                child: Center(
+                                    child: Container(
+                                        height: 3,
+                                        width: 30,
+                                        color: Colors.cyan,
+                                    ),
+                                ),
+                            ),
+                        ],
+                    )
+                ],
+            ),
         );
     }
 }
