@@ -15,11 +15,6 @@ class IndexPage extends StatefulWidget {
 
 class _IndexPageState extends State<IndexPage> {
     /*
-    * 关于我们</em><span>ABOUT</span></a></li>
-                <li class="n_fuwu"><a href="service.html"><em>五赞服务</em><span>SERVICE</span></a></li>
-                <li class="n_case"><a href="case.html"><em>案例欣赏</em><span>CASE</span></a></li>
-                <li class="n_coll"><a href="http://app.wangqi.com"><em>APP学院</em><span>COLLEGE</span></a> </li>
-                <li class="n_contact"><a href="contact.html"><em>联系我们
     * */
     List _items = [
         {
