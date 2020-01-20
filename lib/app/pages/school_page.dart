@@ -122,6 +122,30 @@ class _SchoolPageState extends State<SchoolPage> {
                     color: Colors.red,
                     height: 200,
                     width: 200,
+                    alignment: Alignment.center,
+                    child: Text(
+                        '红红火火恍恍惚惚',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 18
+                        ),
+                    ),
+                ),
+                Container(
+                    margin: EdgeInsets.only(
+                        top: 10,bottom: 10
+                    ),
+                    color: Colors.grey,
+                    height: 200,
+                    width: 200,
+                    alignment: Alignment.center,
+                    child: Text(
+                        '红红火火恍恍惚惚',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 18
+                        ),
+                    ),
                 ),
                 Container(
                     margin: EdgeInsets.only(
@@ -130,6 +154,14 @@ class _SchoolPageState extends State<SchoolPage> {
                     color: Colors.green,
                     height: 200,
                     width: 200,
+                    alignment: Alignment.center,
+                    child: Text(
+                        '红红火火恍恍惚惚',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 18
+                        ),
+                    ),
                 ),
                 Container(
                     margin: EdgeInsets.only(
@@ -138,6 +170,14 @@ class _SchoolPageState extends State<SchoolPage> {
                     color: Colors.pink,
                     height: 200,
                     width: 200,
+                    alignment: Alignment.center,
+                    child: Text(
+                        '红红火火恍恍惚惚',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 18
+                        ),
+                    ),
                 ),
                 Container(
                     margin: EdgeInsets.only(
@@ -146,14 +186,46 @@ class _SchoolPageState extends State<SchoolPage> {
                     color: Colors.purple,
                     height: 200,
                     width: 200,
+                    alignment: Alignment.center,
+                    child: Text(
+                        '红红火火恍恍惚惚',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 18
+                        ),
+                    ),
                 ),
                 Container(
                     margin: EdgeInsets.only(
                         top: 10,bottom: 10
                     ),
-                    color: Colors.cyan,
+                    color: Colors.cyanAccent,
                     height: 200,
                     width: 200,
+                    alignment: Alignment.center,
+                    child: Text(
+                        '红红火火恍恍惚惚',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 18
+                        ),
+                    ),
+                ),
+                Container(
+                    margin: EdgeInsets.only(
+                        top: 10,bottom: 10
+                    ),
+                    color: Colors.blue,
+                    height: 200,
+                    width: 200,
+                    alignment: Alignment.center,
+                    child: Text(
+                        '红红火火恍恍惚惚',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 18
+                        ),
+                    ),
                 ),
             ],
         );
