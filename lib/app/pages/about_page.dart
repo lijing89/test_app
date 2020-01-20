@@ -44,45 +44,6 @@ class _AboutPageState extends State<AboutPage> {
         },
     ];
 
-    List _itemsTwo = [
-        {
-            'title':'开发费用少',
-            'subTitle': '开发费用低于北、上、广一线城市30%,而且质量至少高于北、上、广50%',
-            'img': 'Choice-tu1.png',
-        },
-        {
-            'title':'开发速度快',
-            'subTitle': '全国最先采用 Flutter 技术开发 APP 开发速度快，运行速度快 ',
-            'img': 'Choice-tu2.png',
-        },
-        {
-            'title':'开发团队优',
-            'subTitle': '网奇公司的每位开发团队工程师 至少5年以上经验，拒绝毕业生',
-            'img': 'Choice-tu3.png',
-        },
-        {
-            'title':'服务体系统',
-            'subTitle': '全国独家“五赞”诚信技术服务体系 用优质的服务为我们立口碑',
-            'img': 'Choice-tu4.png',
-        },
-    ];
-
-
-    List _itemsThree = [
-        {
-            'img': 'dianshang1.png',
-        },
-        {
-            'img': 'dianshang3.png',
-        },
-        {
-            'img': 'jiaoyu1.png',
-        },
-        {
-            'img': 'jiankang3.png',
-        },
-    ];
-
     List _fiveZanList = [
         {
             'title':'美工赞',
