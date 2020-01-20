@@ -141,7 +141,7 @@ class _CustomAppbarState extends State<CustomAppbar> {
                                         Application.router.navigateTo(context, Routes.index,clearStack: true,transition: TransitionType.fadeIn);
                                     },
                                     child: Container(
-                                        height: 30.0,
+                                        height: 40.0,
                                         padding: EdgeInsets.only(left: 10,),
                                         child: Image.asset(AssetUtil.image('logo.png'),fit: BoxFit.fitHeight,),
                                     ),
