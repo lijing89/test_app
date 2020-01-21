@@ -6,6 +6,8 @@ class AppStyle {
     static Color colorHeaderBg = Color.fromRGBO(12, 52, 53, 1);
     /// 次要的颜色
     static Color colorSecondary = Color(0xFFFCE96B);
+
+    static Color colorContactBg = Color(0xFF00CCBE);
     /// 主要文字颜色
     static Color colorPrimaryText = Color(0xFF343a40);
     /// 带颜色文字颜色
