@@ -71,7 +71,7 @@ class _SchoolPageState extends State<SchoolPage> {
                     children: <Widget>[
                         Container(
                             width: ScreenUtil().setWidth(750),
-                            height: ScreenUtil().setWidth(1334),
+                            height: double.infinity,
                             child: ListView(
                                 controller: _scrollController,
                                 padding: EdgeInsets.only(

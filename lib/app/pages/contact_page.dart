@@ -147,7 +147,7 @@ class _ContactPageState extends State<ContactPage> {
                         children: <Widget>[
                             Container(
                                 width: ScreenUtil().setWidth(750),
-                                height: ScreenUtil().setWidth(1334),
+                                height: double.infinity,
                                 color: Colors.white,
                                 child: ListView(
                                     controller: _scrollController,

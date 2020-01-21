@@ -19,7 +19,7 @@ class BottomView extends StatelessWidget {
         width: width,
         padding: padding,
         decoration: BoxDecoration(
-            color: Colors.green,
+            color: Colors.white,
         ),
         child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
